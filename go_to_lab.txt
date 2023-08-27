@@ -1,0 +1,15 @@
+2S
+B 0.1S
+2S
+B 0.1S
+2S
+B 0.5S
+2S
+LOOP 3
+    DPAD_DOWN 0.1S
+    0.1
+A 0.1S
+5S
+DPAD_RIGHT 0.1S
+2S
+A 0.1S

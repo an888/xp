@@ -1,0 +1,7 @@
+LOOP 18000
+	L R 0.1S
+	L R A 0.1S
+	0.1S
+	L R 0.1S
+	L R Y 0.1S
+	0.1S
