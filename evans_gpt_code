@@ -1,0 +1,38 @@
+from nxbt import Nxbt, Buttons
+
+# Initialize Nxbt
+nxbt = Nxbt()
+
+# Create a controller instance
+controller_index = nxbt.create_controller(
+    nxbt.PRO_CONTROLLER, reconnect_address="YourSwitchBluetoothAddress"
+)
+
+# Wait for the controller to be ready
+nxbt.wait_for_connection(controller_index)
+
+# Define gameplay sequence
+def play_game():
+    nxbt.press_buttons(controller_index, [Buttons.L_STICK_UP])
+    nxbt.sleep(0.5)
+    nxbt.release_buttons(controller_index, [Buttons.L_STICK_UP])
+
+    nxbt.press_buttons(controller_index, [Buttons.Y])  # Light attack
+    nxbt.sleep(0.2)
+    nxbt.release_buttons(controller_index, [Buttons.Y])
+
+    nxbt.press_buttons(controller_index, [Buttons.ZR])  # Dodge
+    nxbt.sleep(0.1)
+    nxbt.release_buttons(controller_index, [Buttons.ZR])
+
+    # Special attack example
+    nxbt.press_buttons(controller_index, [Buttons.R, Buttons.A])
+    nxbt.sleep(0.5)
+    nxbt.release_buttons(controller_index, [Buttons.R, Buttons.A])
+
+# Loop for repeated actions
+for _ in range(50):  # Adjust for the trial duration
+    play_game()
+
+# Disconnect controller after the sequence
+nxbt.remove_controller(controller_index)

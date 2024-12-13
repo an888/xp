@@ -1,0 +1,7 @@
+LOOP 10
+    A 1S
+    0.1S
+A 10S
+LOOP 10
+    ZR 0.1S
+    L_STICK@+000+100 1S

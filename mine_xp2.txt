@@ -1,0 +1,35 @@
+LOOP 100
+    LOOP 25
+        L R 0.1S
+        L R A 0.1S
+        0.1S
+        L R 0.1S
+        L R Y 0.1S
+        0.1S
+    DPAD_RIGHT 0.5S
+    LOOP 25 
+        L R 0.1S
+        L R A 0.1S
+        0.1S
+        L R 0.1S
+        L R Y 0.1S
+        0.1S
+    DPAD_LEFT 0.5S
+    LOOP 25 
+        L R 0.1S
+        L R A 0.5S
+        0.1S
+        L R 0.1S
+        L R Y 0.5S
+        1S
+    DPAD_UP 0.5S
+    DPAD_UP 0.5S
+    LOOP 25 
+        L R 0.1S
+        L R A 0.1S
+        0.1S
+        L R 0.1S
+        L R Y 0.1S
+        1S
+    DPAD_DOWN 0.5S
+    DPAD_DOWN 0.5S

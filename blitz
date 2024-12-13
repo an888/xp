@@ -1,0 +1,21 @@
+10S
+DPAD_RIGHT 0.1S
+A 0.1S
+0.5S
+A 0.1S
+0.5S
+A 0.1S
+0.5S
+LOOP 18000
+    DPAD_RIGHT 0.1S
+    0.1S
+    DPAD_RIGHT 0.1S
+    0.1S
+    Y 0.1S
+    1.5S
+    DPAD_LEFT 0.1S
+    0.1S
+    DPAD_LEFT 0.1S
+    0.1S
+    Y 0.1S
+    1.5S

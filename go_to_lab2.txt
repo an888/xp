@@ -1,0 +1,13 @@
+3S
+B 0.1S
+1S
+X 0.1S
+1S
+LOOP 2  
+    DPAD_DOWN 0.1S
+    0.1S
+A 0.1S
+3S
+DPAD_RIGHT 0.1S
+0.1S
+A 0.1S
