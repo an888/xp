@@ -1,0 +1,10 @@
+  
+3S
+LOOP 25
+    DPAD_LEFT 0.1S
+    0.1S
+3S
+LOOP 16
+    DPAD_RIGHT 0.1S
+    0.2S
+3S

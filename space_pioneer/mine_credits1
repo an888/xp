@@ -1,0 +1,31 @@
+2S
+LOOP 1000
+    A 0.5S
+    5S
+    A 0.5S
+    6S
+    DPAD_UP 1S
+    0.1S
+    Y 0.1S
+    0.1S
+    R_STICK@+100+100 1S
+    5S
+    X 0.1S
+    0.1S
+    A 0.1S
+    ZR 13.5S
+    0.1S
+    DPAD_UP 3S
+    1S
+    DPAD_RIGHT 0.5S
+    1S 
+    DPAD_DOWN 2S
+    1S
+    DPAD_LEFT 0.5S
+    1S
+    DPAD_DOWN 2S
+    7S
+    A 0.1S
+    7S
+    A 0.1S
+    7S
